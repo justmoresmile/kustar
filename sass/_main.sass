@@ -1,0 +1,288 @@
+// body
+// 	background: url('../image/background/1321.png') center center /cover no-repeat
+.backgrond-all
+	background: url('../image/background/1321.png') center 35% /cover no-repeat
+	padding: 0 90px 40px 90px
+	
+.first
+	position: relative
+	.open
+		position: absolute
+		top: 60px
+		right: 0
+	&__logo
+		display: block
+		margin: 0 auto
+		
+	&__gumburger
+		display: flex
+		justify-content: flex-end
+		align-items: self-end
+	
+.title
+	font-family: 'HandelGothic TL'
+	font-size: 36.8px
+	line-height: 50px
+	color: #FFFCFA
+
+.list
+	max-width: 650px
+	color: #FFFCFA;
+	padding: 0 20px
+	display: flex
+	flex-direction: column
+	font-family: 'HandelGothic TL'
+	font-size: 16px
+
+	// justify-content: center
+	li
+		margin-top: 10px
+		&:first-child
+			margin-top: 0
+		
+.video
+	max-width: 50%
+	max-height: 500px
+.youtube
+	position: relative
+	img
+		position: absolute
+		right: -5%
+		cursor: pointer
+.anim
+	max-width: 50%
+	img
+		max-height: 600px
+
+.arrow 
+	position: relative
+	float: right
+	width: 26px
+	height: 25px
+	img
+		cursor: pointer
+	a
+		img
+			position: absolute
+			top: -25px
+			left: 65px
+		
+	
+.work
+	padding: 360px 0 100px 0 
+	// background: url('../../image/background/3.svg') center center /cover no-repeat
+	filter: blur (10px)
+	&__3d
+		max-height: 600px
+		display: block
+		margin: 0 auto
+
+.hiden
+	position: relative
+	padding: 60px 120px 120px 120px
+
+	&__wrapper
+		display: flex
+	&__img
+		width: 83px
+		height: 86px
+		cursor: pointer
+	&__img3
+		position: absolute
+		top: 10%
+		left: 15%
+
+.center__img
+	display: block
+	margin: 0 auto
+.hide
+	display: none
+
+.show 
+	animation: showAnim
+	animation-duration: 2.5s
+@keyframes showAnim
+	0%
+		display: none
+		opacity: 0.1
+		
+	30%
+		display: none
+	50%
+		display: none
+	70%
+		display: none
+	
+	100%
+		opacity: 1
+		
+	
+	
+
+.price
+	padding-bottom: 50px
+	&__img
+		display: block
+		margin: 0 auto
+		cursor: pointer
+	.title
+		text-align: center
+	.descr
+		padding: 
+		width: 710px
+		margin: 0 auto
+		margin-top: 110px
+		margin-bottom: 100px
+		color: #fff
+		font-size: 22px
+		text-align: center
+		font-family: HandelGothic TL
+		line-height: 39px
+	
+.whatis
+	// padding: 145px 0 
+	.title
+		color: #EF570C
+		text-align: center
+	h4
+		color: #EF570C
+		text-align: center
+		max-width: 710px
+		margin: 0 auto
+		font-family: HandelGothic TL
+		line-height: 39px
+		margin-bottom: 80px
+		margin-top: 40px
+
+	
+	ul
+		margin: 0 auto
+		li
+			span
+				color: #EF570C
+
+.request
+	padding-top: 150px
+	.title
+		text-align: center
+		margin: 0 auto 
+		font-size: 36px
+		line-height: 50px
+	&__form
+		display: flex
+		flex-direction: column
+		align-items: center
+		align-content: center
+		justify-self: center
+		padding: 60px 0
+		margin: 0 auto
+		
+		div
+			display: flex
+			align-items: center
+
+
+		span
+			display: inline-block
+			color: #EF570C
+			width: 10%
+			
+			
+		input
+			border: none
+			border-bottom: 2px solid #fff
+			outline: none !important
+			background-color: #ffffff00
+			color: #fff			
+			width: 100%
+		input#send 
+			border: none
+			text-align: right
+			color: #EF570C
+			&:hover
+				color: #fff
+			
+
+				
+			
+			
+				
+		textarea
+			background-color: #ffffff00
+			color: #fff
+			border: none
+			border-bottom: 1px solid #fff
+			overflow: hidden
+			
+.footer__logo
+	img
+		display: block
+		margin: 0 auto
+		max-width: 284px
+		max-height: 132px
+
+.social
+	&__link
+		margin-top: 62px
+		display: flex
+		justify-content: center
+		align-items: center
+		a
+			margin-left: 120px
+			width: 35px
+			height: 45px
+			&:first-child
+				
+				margin-left: 0
+// 2 переход гамбургер
+.questions
+	background: url('../image/background/questions-bg.svg') center center /cover no-repeat
+	width: 100%
+	height: 100vh
+
+.questions
+	padding: 311px 0 0 0 
+	a
+		text-decoration: none
+	&__title
+		font-size: 36px
+		line-height: 50px
+		color: #fff
+		font-family: HandelGothic TL
+		font-style: normal
+		font-weight: normal
+		font-size: 36.8px
+		line-height: 50px
+		span
+			color: #EF570C
+		&:hover
+			color: #EF570C
+
+//переход Кустарщина что это ? 
+.whatthis
+	position: relative
+	background: url('../image/background/destop5-7.jpg') center center /cover no-repeat
+	padding: 105px 0 200px 0
+	&__description 
+		margin-top: 40px
+		max-width: 700px
+		color: #fff
+		font-family: HandelGothic TL
+		font-style: normal
+		font-weight: normal
+		font-size: 33px
+		line-height: 50px
+		img
+			max-width: 700px
+	&__video
+		position: absolute
+		top: 400px
+		left: 165px
+	&__arrow
+		position: absolute
+		bottom: 140px
+		left: 165px
+	
+
+//переход Что конкретно будем делать 
+
