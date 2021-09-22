@@ -29,7 +29,7 @@
             <section class="second">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-5 align-self-center">
+                        <div class="col-6 align-self-center">
                             <h2 class="title">
                                 Кустарщина - так что же это такое ?
                             </h2>
@@ -42,14 +42,13 @@
 
                             </ul>
                         </div>
-                        <div class="col-6 ">
+                        <div class="col-6 for-youtube">
                             <iframe width=" 100% " height="434 " src="https://www.youtube.com/embed/2IEr5LeYvYU??enablejsapi=1 " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                            <a href="whatthis.html "> <img src="image/arrow.svg " class="col-1 align-self-end arrow " alt="arrow "></a>
                         </div>
 
 
-                        <div class="col-1 align-self-end arrow ">
-                            <a href="whatthis.html "> <img src="image/arrow.svg " alt="arrow "></a>
-                        </div>
+
                     </div>
 
 
@@ -78,18 +77,14 @@
 
                             </ul>
                         </div>
-                        <div class="col-6 ">
+                        <div class="col-7 for-youtube">
 
                             <img src="image/Frame-7.png " alt="cube " class="work__3d ">
-
+                            <a href="whattodo.html "> <img src="image/arrow.svg " class="col-1 align-self-end arrow " alt="arrow "></a>
                         </div>
 
 
-                        <div class="col-1 align-self-end arrow ">
 
-                            <a href="whattodo.html "> <img src="image/arrow.svg " alt="arrow "></a>
-
-                        </div>
                     </div>
 
                 </div>
@@ -139,7 +134,7 @@
             <section class="whatis ">
                 <div class="container-fluid ">
                     <div class="row align-self-center ">
-                        <div class="col align-self-center ">
+                        <div class="col align-self-center for-youtube ">
                             <h2 class="title ">
                                 Что это спросите вы ?
                             </h2>
@@ -161,14 +156,11 @@
                                 <li><span>Ну и прибыльность</span> в размере 15-20%, необходимая для продвижения нашего проекта дальше.</li>
 
                             </ul>
+                            <a href="howmatch.html "> <img src="image/arrow.svg " class="col-1 align-self-end arrow " alt="arrow "></a>
                         </div>
+
                     </div>
-                    <div class="row ">
-                        <div class="col-11 "></div>
-                        <div class="col-1 arrow ">
-                            <a href="howmatch.html "> <img src="image/arrow.svg " alt="arrow "></a>
-                        </div>
-                    </div>
+
 
                 </div>
 
@@ -181,22 +173,27 @@
                         Отправить заявку
                     </h2>
                     <div class="request__form ">
-                        <form action="send.php " method="post " class="form ">
+                        <div class="row">
+                            <div class="col">
+                                <form action="send.php " method="post " class="form ">
 
 
-                            <div>
-                                <span> Имя : </span><input type="text " name="first_name " required placeholder="Укажите ваше имя ">
-                            </div>
+                                    <div>
+                                        <span> Имя : </span><input type="text " name="first_name " required placeholder="Укажите ваше имя ">
+                                    </div>
 
-                            <div>
-                                <span>Телефон : </span> <input type="text " name="tel " required placeholder="Укажите ваш телефон ">
+                                    <div>
+                                        <span>Телефон : </span> <input type="text " name="tel " required placeholder="Укажите ваш телефон ">
+                                    </div>
+                                    <span>Сообщение:</span><br>
+                                    <textarea rows="3 " name="message " cols="120 "></textarea><br>
+
+                                    <button id="send " type="submit " name="submit " class="send-button" value="Отправить ">Отправить
+                                    </button>
+                                </form>
                             </div>
-                            <span>Сообщение:</span><br>
-                            <textarea rows="3 " name="message " cols="120 "></textarea><br>
-                            <div>
-                                <input id="send " type="submit " name="submit " value="Отправить ">
-                            </div>
-                        </form>
+                        </div>
+
 
 
                     </div>
@@ -210,11 +207,16 @@
                     <div class="footer__logo ">
                         <img src="image/logo_req.png " alt="req__logo ">
                     </div>
-                    <div class="social__link ">
-                        <a href="# "><img src="image/instagram.svg " alt="instagram "></a>
-                        <a href="# "> <img src="image/facebook.svg " alt="facebook "></a>
-                        <a href="# "><img src="image/youtube.svg " alt="youtube "></a>
-
+                    <div class="row align-self-center social">
+                        <div class="col-4 ">
+                            <a href="# "><img src="image/instagram.svg " alt="instagram "></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="# "> <img src="image/facebook.svg " alt="facebook "></a>
+                        </div>
+                        <div class="col-4">
+                            <a href="# "><img src="image/youtube.svg " alt="youtube "></a>
+                        </div>
                     </div>
                 </div>
             </section>
